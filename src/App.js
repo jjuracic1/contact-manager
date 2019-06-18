@@ -16,7 +16,7 @@ import './App.css';
 function App() {
   return (
     <Provider>
-      <Router  basename="/contact-manager">
+      <Router>
         <div className="App">
           <Header branding="Contact Manager" />
           <div className="container">
