@@ -23,11 +23,11 @@ function App() {
             {/* <Contact name="John Doe" email="jdoe@gmail.com" phone="555-555-5555" />
             <Contact name="Jurica Juračić" email="jjuracic1@gmail.com" phone="666-666-6666" /> */}
             <Switch>
-              <Route exact path="/" component={Contacts} />
-              <Route exact path="/contact/add" component={AddContact} />
-              <Route exact path="/contact/edit/:id" component={EditContact} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/test" component={Test} />
+              <Route exact path="/contact-manager" component={Contacts} />
+              <Route exact path="/contact-manager/contact/add" component={AddContact} />
+              <Route exact path="/contact-manager/contact/edit/:id" component={EditContact} />
+              <Route exact path="/contact-manager/about" component={About} />
+              <Route exact path="/contact-manager/test" component={Test} />
               <Route component={NotFound} />
             </Switch>
           </div>
